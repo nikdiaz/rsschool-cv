@@ -22,7 +22,7 @@ function multiply(a, b){
 }
 ```
 ## Work experience:
-*No work experience..*
+*No work experience.*
 
 ## Education and courses:
   * **Tyumen Industrial University**
