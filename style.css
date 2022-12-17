@@ -1,1 +1,134 @@
-hi
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+a:hover {
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+header {
+    margin: 50px 0;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+
+
+
+.head_image {
+    width: 30%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-item {
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.header-link {
+    padding-bottom: 2px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 2px solid #000000;
+}
+
+.header-title {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.header-subtitle {
+    font-size: 22px;
+}
+
+.aside {
+    width: 30%;
+}
+
+
+.main_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education,
+.contacts {
+    margin-bottom: 50px;
+}
+
+.education-name,
+.skills-name,
+.about-name,
+.code-name,
+.projects-name,
+.contacts-name {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.title-divider {
+    border-bottom: 3px solid #000000;
+}
+
+.education-list,
+.skills-list,
+.contacts-list {
+    margin: 0 0 10px 10px;
+    list-style: inside;
+}
+
+.education-link,
+.contacts-link {
+    color: #000000;
+    text-decoration: none;
+}
